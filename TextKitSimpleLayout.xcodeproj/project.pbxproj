@@ -13,48 +13,34 @@
 		FD32FC6918FC303900C14CE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD32FC6718FC303900C14CE6 /* InfoPlist.strings */; };
 		FD32FC6B18FC303900C14CE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD32FC6A18FC303900C14CE6 /* main.m */; };
 		FD32FC6F18FC303900C14CE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD32FC6E18FC303900C14CE6 /* AppDelegate.m */; };
-		FD32FC7218FC303900C14CE6 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD32FC7018FC303900C14CE6 /* Main_iPhone.storyboard */; };
 		FD32FC7518FC303900C14CE6 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD32FC7318FC303900C14CE6 /* Main_iPad.storyboard */; };
 		FD32FC7818FC303900C14CE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD32FC7718FC303900C14CE6 /* ViewController.m */; };
 		FD32FC7A18FC303900C14CE6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD32FC7918FC303900C14CE6 /* Images.xcassets */; };
-		FD32FC8118FC303900C14CE6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD32FC8018FC303900C14CE6 /* XCTest.framework */; };
-		FD32FC8218FC303900C14CE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD32FC5E18FC303900C14CE6 /* Foundation.framework */; };
-		FD32FC8318FC303900C14CE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD32FC6218FC303900C14CE6 /* UIKit.framework */; };
-		FD32FC8B18FC303900C14CE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD32FC8918FC303900C14CE6 /* InfoPlist.strings */; };
-		FD32FC8D18FC303900C14CE6 /* TextKitLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD32FC8C18FC303900C14CE6 /* TextKitLayoutTests.m */; };
+		FD32FC9718FC3B9E00C14CE6 /* ConspirationMilliardaires.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FD32FC9618FC3B9E00C14CE6 /* ConspirationMilliardaires.rtf */; };
+		FD32FCA018FC7B0B00C14CE6 /* PathImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD32FC9F18FC7B0B00C14CE6 /* PathImageView.m */; };
+		FD32FCA218FC814000C14CE6 /* Chrysler_Building.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD32FCA118FC814000C14CE6 /* Chrysler_Building.jpg */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		FD32FC8418FC303900C14CE6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FD32FC5318FC303900C14CE6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FD32FC5A18FC303900C14CE6;
-			remoteInfo = TextKitLayout;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		FD32FC5B18FC303900C14CE6 /* TextKitLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextKitLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD32FC5B18FC303900C14CE6 /* TextKitSimpleLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextKitSimpleLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD32FC5E18FC303900C14CE6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FD32FC6018FC303900C14CE6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		FD32FC6218FC303900C14CE6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		FD32FC6618FC303900C14CE6 /* TextKitLayout-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextKitLayout-Info.plist"; sourceTree = "<group>"; };
+		FD32FC6618FC303900C14CE6 /* TextKitSimpleLayout-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextKitSimpleLayout-Info.plist"; sourceTree = "<group>"; };
 		FD32FC6818FC303900C14CE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FD32FC6A18FC303900C14CE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FD32FC6C18FC303900C14CE6 /* TextKitLayout-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TextKitLayout-Prefix.pch"; sourceTree = "<group>"; };
+		FD32FC6C18FC303900C14CE6 /* TextKitSimpleLayout-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TextKitSimpleLayout-Prefix.pch"; sourceTree = "<group>"; };
 		FD32FC6D18FC303900C14CE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FD32FC6E18FC303900C14CE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FD32FC7118FC303900C14CE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		FD32FC7418FC303900C14CE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		FD32FC7618FC303900C14CE6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FD32FC7718FC303900C14CE6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FD32FC7918FC303900C14CE6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		FD32FC7F18FC303900C14CE6 /* TextKitLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextKitLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD32FC8018FC303900C14CE6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		FD32FC8818FC303900C14CE6 /* TextKitLayoutTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextKitLayoutTests-Info.plist"; sourceTree = "<group>"; };
-		FD32FC8A18FC303900C14CE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FD32FC8C18FC303900C14CE6 /* TextKitLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextKitLayoutTests.m; sourceTree = "<group>"; };
+		FD32FC9618FC3B9E00C14CE6 /* ConspirationMilliardaires.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = ConspirationMilliardaires.rtf; sourceTree = "<group>"; };
+		FD32FC9E18FC7B0B00C14CE6 /* PathImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathImageView.h; sourceTree = "<group>"; };
+		FD32FC9F18FC7B0B00C14CE6 /* PathImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathImageView.m; sourceTree = "<group>"; };
+		FD32FCA118FC814000C14CE6 /* Chrysler_Building.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chrysler_Building.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,24 +54,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD32FC7C18FC303900C14CE6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FD32FC8118FC303900C14CE6 /* XCTest.framework in Frameworks */,
-				FD32FC8318FC303900C14CE6 /* UIKit.framework in Frameworks */,
-				FD32FC8218FC303900C14CE6 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		FD32FC5218FC303900C14CE6 = {
 			isa = PBXGroup;
 			children = (
-				FD32FC6418FC303900C14CE6 /* TextKitLayout */,
-				FD32FC8618FC303900C14CE6 /* TextKitLayoutTests */,
+				FD32FC6418FC303900C14CE6 /* TextKitSimpleLayout */,
 				FD32FC5D18FC303900C14CE6 /* Frameworks */,
 				FD32FC5C18FC303900C14CE6 /* Products */,
 			);
@@ -94,8 +69,7 @@
 		FD32FC5C18FC303900C14CE6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FD32FC5B18FC303900C14CE6 /* TextKitLayout.app */,
-				FD32FC7F18FC303900C14CE6 /* TextKitLayoutTests.xctest */,
+				FD32FC5B18FC303900C14CE6 /* TextKitSimpleLayout.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,46 +85,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FD32FC6418FC303900C14CE6 /* TextKitLayout */ = {
+		FD32FC6418FC303900C14CE6 /* TextKitSimpleLayout */ = {
 			isa = PBXGroup;
 			children = (
 				FD32FC6D18FC303900C14CE6 /* AppDelegate.h */,
 				FD32FC6E18FC303900C14CE6 /* AppDelegate.m */,
-				FD32FC7018FC303900C14CE6 /* Main_iPhone.storyboard */,
 				FD32FC7318FC303900C14CE6 /* Main_iPad.storyboard */,
 				FD32FC7618FC303900C14CE6 /* ViewController.h */,
 				FD32FC7718FC303900C14CE6 /* ViewController.m */,
+				FD32FC9E18FC7B0B00C14CE6 /* PathImageView.h */,
+				FD32FC9F18FC7B0B00C14CE6 /* PathImageView.m */,
+				FD32FC9618FC3B9E00C14CE6 /* ConspirationMilliardaires.rtf */,
+				FD32FCA118FC814000C14CE6 /* Chrysler_Building.jpg */,
 				FD32FC7918FC303900C14CE6 /* Images.xcassets */,
 				FD32FC6518FC303900C14CE6 /* Supporting Files */,
 			);
-			path = TextKitLayout;
+			path = TextKitSimpleLayout;
 			sourceTree = "<group>";
 		};
 		FD32FC6518FC303900C14CE6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FD32FC6618FC303900C14CE6 /* TextKitLayout-Info.plist */,
+				FD32FC6618FC303900C14CE6 /* TextKitSimpleLayout-Info.plist */,
 				FD32FC6718FC303900C14CE6 /* InfoPlist.strings */,
 				FD32FC6A18FC303900C14CE6 /* main.m */,
-				FD32FC6C18FC303900C14CE6 /* TextKitLayout-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		FD32FC8618FC303900C14CE6 /* TextKitLayoutTests */ = {
-			isa = PBXGroup;
-			children = (
-				FD32FC8C18FC303900C14CE6 /* TextKitLayoutTests.m */,
-				FD32FC8718FC303900C14CE6 /* Supporting Files */,
-			);
-			path = TextKitLayoutTests;
-			sourceTree = "<group>";
-		};
-		FD32FC8718FC303900C14CE6 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				FD32FC8818FC303900C14CE6 /* TextKitLayoutTests-Info.plist */,
-				FD32FC8918FC303900C14CE6 /* InfoPlist.strings */,
+				FD32FC6C18FC303900C14CE6 /* TextKitSimpleLayout-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -158,9 +117,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FD32FC5A18FC303900C14CE6 /* TextKitLayout */ = {
+		FD32FC5A18FC303900C14CE6 /* TextKitSimpleLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD32FC9018FC303900C14CE6 /* Build configuration list for PBXNativeTarget "TextKitLayout" */;
+			buildConfigurationList = FD32FC9018FC303900C14CE6 /* Build configuration list for PBXNativeTarget "TextKitSimpleLayout" */;
 			buildPhases = (
 				FD32FC5718FC303900C14CE6 /* Sources */,
 				FD32FC5818FC303900C14CE6 /* Frameworks */,
@@ -170,28 +129,10 @@
 			);
 			dependencies = (
 			);
-			name = TextKitLayout;
+			name = TextKitSimpleLayout;
 			productName = TextKitLayout;
-			productReference = FD32FC5B18FC303900C14CE6 /* TextKitLayout.app */;
+			productReference = FD32FC5B18FC303900C14CE6 /* TextKitSimpleLayout.app */;
 			productType = "com.apple.product-type.application";
-		};
-		FD32FC7E18FC303900C14CE6 /* TextKitLayoutTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FD32FC9318FC303900C14CE6 /* Build configuration list for PBXNativeTarget "TextKitLayoutTests" */;
-			buildPhases = (
-				FD32FC7B18FC303900C14CE6 /* Sources */,
-				FD32FC7C18FC303900C14CE6 /* Frameworks */,
-				FD32FC7D18FC303900C14CE6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FD32FC8518FC303900C14CE6 /* PBXTargetDependency */,
-			);
-			name = TextKitLayoutTests;
-			productName = TextKitLayoutTests;
-			productReference = FD32FC7F18FC303900C14CE6 /* TextKitLayoutTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -200,13 +141,8 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
-				TargetAttributes = {
-					FD32FC7E18FC303900C14CE6 = {
-						TestTargetID = FD32FC5A18FC303900C14CE6;
-					};
-				};
 			};
-			buildConfigurationList = FD32FC5618FC303900C14CE6 /* Build configuration list for PBXProject "TextKitLayout" */;
+			buildConfigurationList = FD32FC5618FC303900C14CE6 /* Build configuration list for PBXProject "TextKitSimpleLayout" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -219,8 +155,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FD32FC5A18FC303900C14CE6 /* TextKitLayout */,
-				FD32FC7E18FC303900C14CE6 /* TextKitLayoutTests */,
+				FD32FC5A18FC303900C14CE6 /* TextKitSimpleLayout */,
 			);
 		};
 /* End PBXProject section */
@@ -230,18 +165,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD32FC9718FC3B9E00C14CE6 /* ConspirationMilliardaires.rtf in Resources */,
+				FD32FCA218FC814000C14CE6 /* Chrysler_Building.jpg in Resources */,
 				FD32FC7518FC303900C14CE6 /* Main_iPad.storyboard in Resources */,
 				FD32FC7A18FC303900C14CE6 /* Images.xcassets in Resources */,
-				FD32FC7218FC303900C14CE6 /* Main_iPhone.storyboard in Resources */,
 				FD32FC6918FC303900C14CE6 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FD32FC7D18FC303900C14CE6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FD32FC8B18FC303900C14CE6 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,28 +181,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD32FC7818FC303900C14CE6 /* ViewController.m in Sources */,
+				FD32FCA018FC7B0B00C14CE6 /* PathImageView.m in Sources */,
 				FD32FC6F18FC303900C14CE6 /* AppDelegate.m in Sources */,
 				FD32FC6B18FC303900C14CE6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD32FC7B18FC303900C14CE6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FD32FC8D18FC303900C14CE6 /* TextKitLayoutTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		FD32FC8518FC303900C14CE6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FD32FC5A18FC303900C14CE6 /* TextKitLayout */;
-			targetProxy = FD32FC8418FC303900C14CE6 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		FD32FC6718FC303900C14CE6 /* InfoPlist.strings */ = {
@@ -285,28 +198,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		FD32FC7018FC303900C14CE6 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FD32FC7118FC303900C14CE6 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
 		FD32FC7318FC303900C14CE6 /* Main_iPad.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				FD32FC7418FC303900C14CE6 /* Base */,
 			);
 			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-		FD32FC8918FC303900C14CE6 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FD32FC8A18FC303900C14CE6 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -390,9 +287,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TextKitLayout/TextKitLayout-Prefix.pch";
-				INFOPLIST_FILE = "TextKitLayout/TextKitLayout-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "TextKitSimpleLayout/TextKitSimpleLayout-Prefix.pch";
+				INFOPLIST_FILE = "TextKitSimpleLayout/TextKitSimpleLayout-Info.plist";
+				PRODUCT_NAME = TextKitSimpleLayout;
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -403,57 +301,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TextKitLayout/TextKitLayout-Prefix.pch";
-				INFOPLIST_FILE = "TextKitLayout/TextKitLayout-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "TextKitSimpleLayout/TextKitSimpleLayout-Prefix.pch";
+				INFOPLIST_FILE = "TextKitSimpleLayout/TextKitSimpleLayout-Info.plist";
+				PRODUCT_NAME = TextKitSimpleLayout;
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		FD32FC9418FC303900C14CE6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TextKitLayout.app/TextKitLayout";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TextKitLayout/TextKitLayout-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "TextKitLayoutTests/TextKitLayoutTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		FD32FC9518FC303900C14CE6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TextKitLayout.app/TextKitLayout";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TextKitLayout/TextKitLayout-Prefix.pch";
-				INFOPLIST_FILE = "TextKitLayoutTests/TextKitLayoutTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FD32FC5618FC303900C14CE6 /* Build configuration list for PBXProject "TextKitLayout" */ = {
+		FD32FC5618FC303900C14CE6 /* Build configuration list for PBXProject "TextKitSimpleLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FD32FC8E18FC303900C14CE6 /* Debug */,
@@ -462,21 +321,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FD32FC9018FC303900C14CE6 /* Build configuration list for PBXNativeTarget "TextKitLayout" */ = {
+		FD32FC9018FC303900C14CE6 /* Build configuration list for PBXNativeTarget "TextKitSimpleLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FD32FC9118FC303900C14CE6 /* Debug */,
 				FD32FC9218FC303900C14CE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		FD32FC9318FC303900C14CE6 /* Build configuration list for PBXNativeTarget "TextKitLayoutTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FD32FC9418FC303900C14CE6 /* Debug */,
-				FD32FC9518FC303900C14CE6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
