@@ -8,11 +8,25 @@
 
 #import "AppDelegate.h"
 
+#import "CIMLua/CIMLua.h"
+#import "CIMLua/CIMLuaContextMonitor.h"
+
 @implementation AppDelegate
+{
+    CIMLuaContext* _luaContext;
+    CIMLuaContextMonitor* _contextMonitor;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    // Create the Lua context
+    _luaContext = [[CIMLuaContext alloc] initWithName:@"TextKitLayout"];
+    _contextMonitor = [[CIMLuaContextMonitor alloc] initWithLuaContext:_luaContext connectionTimeout:5.0];
+    
+    // Extend the ViewController class in Lua
+    [_luaContext loadLuaModuleNamed:@"ViewController"];
+    
+
     return YES;
 }
 

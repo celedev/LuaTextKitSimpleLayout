@@ -41,4 +41,17 @@
     [_viewShape stroke];
 }
 
+- (void) setViewShape:(UIBezierPath *)viewShape
+{
+    _viewShape = viewShape;
+    self.bounds = _viewShape.bounds;
+    [self setNeedsDisplay];
+}
+
+- (void) setViewImage:(UIImage *)viewImage
+{
+    _viewImage = viewImage;
+    [self setNeedsDisplay];
+}
+
 @end

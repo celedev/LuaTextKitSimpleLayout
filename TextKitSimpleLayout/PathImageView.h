@@ -12,6 +12,7 @@
 
 - (id) initWithFrame:(CGRect)frame  shape:(UIBezierPath*)shape image:(UIImage*)image;
 
-@property UIBezierPath* viewShape;
+@property (nonatomic) UIBezierPath* viewShape;
+@property (nonatomic) UIImage* viewImage;
 
 @end

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Program Bindings Libs</key>
+	<array>
+		<dict>
+			<key>LibBookmark</key>
+			<data>
+			Ym9va0AEAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAPAMAAAUAAAABAQAAVXNlcnMAAAAIAAAAAQEAAGpl
+			YW4tbHVjBwAAAAEBAABMaWJyYXJ5ABMAAAABAQAAQXBwbGljYXRp
+			b24gU3VwcG9ydAAUAAAAAQEAAGNvbS5jZWxlZGV2LkNvZGVGbG93
+			CAAAAAEBAABpcGhvbmVvcxcAAAABAQAAaU9TLTguMC1TREsubHVh
+			YmluZGluZ3MAHAAAAAEGAAAEAAAAFAAAACQAAAA0AAAAUAAAAGwA
+			AAB8AAAACAAAAAQDAAB8ZAIAAAAAAAgAAAAEAwAAw3tOAAAAAAAI
+			AAAABAMAADh8TgAAAAAACAAAAAQDAAA+fE4AAAAAAAgAAAAEAwAA
+			WmJUAAAAAAAIAAAABAMAAFxiVAAAAAAACAAAAAQDAADkC5EAAAAA
+			ABwAAAABBgAAwAAAANAAAADgAAAA8AAAAAABAAAQAQAAIAEAAAgA
+			AAAABAAAQbnUFKQAAAAYAAAAAQIAAAIAAAAAAAAADwAAAAAAAAAA
+			AAAAAAAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAPcBAAAMAAAA
+			AQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAAAGzgMBAAAIAAAAAAQA
+			AEG4Iv/AAAAAJAAAAAEBAAAxQkIzNEI4QS03RjU5LTNDMjktOUJB
+			OS0yMTNBRTg0OTM4NkUYAAAAAQIAAIEAAAABAAgA7xcAAAEACAAA
+			AAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAABAAAAAMDAAAAAwAA
+			8gAAAAECAABmYmJhNWJmNzlhZTdiNTFmYjk3ZTRhYjdlNmYyNzQy
+			OTAyYWIzYTFjOzAwMDAwMDAwOzAwMDAwMDAwOzAwMDAwMDAwMDAw
+			MDAwMjA7Y29tLmFwcGxlLmFwcC1zYW5kYm94LnJlYWQtd3JpdGU7
+			MDAwMDAwMDE7MDEwMDAwMDg7MDAwMDAwMDAwMDkxMGJlNDsvdXNl
+			cnMvamVhbi1sdWMvbGlicmFyeS9hcHBsaWNhdGlvbiBzdXBwb3J0
+			L2NvbS5jZWxlZGV2LmNvZGVmbG93L2lwaG9uZW9zL2lvcy04LjAt
+			c2RrLmx1YWJpbmRpbmdzAAAAzAAAAP7///8BAAAAAAAAABAAAAAE
+			EAAAnAAAAAAAAAAFEAAAMAEAAAAAAAAQEAAAZAEAAAAAAABAEAAA
+			VAEAAAAAAAACIAAAIAIAAAAAAAAQIAAAoAEAAAAAAAARIAAA1AEA
+			AAAAAAASIAAAtAEAAAAAAAATIAAAxAEAAAAAAAAgIAAAAAIAAAAA
+			AAAwIAAALAIAAAAAAAABwAAAhAEAAAAAAAARwAAAFAAAAAAAAAAS
+			wAAAlAEAAAAAAAAQ0AAANAIAAAAAAACA8AAAQAIAAAAAAAA=
+			</data>
+			<key>LibDirPath</key>
+			<string>iphoneos</string>
+			<key>LibId</key>
+			<string>apple_sdk_iphoneos8.0</string>
+			<key>LibName</key>
+			<string>iOS</string>
+			<key>LibUrl</key>
+			<string>file:///Users/jean-luc/Library/Application%20Support/com.celedev.CodeFlow/iphoneos/iOS-8.0-SDK.luabindings/</string>
+		</dict>
+	</array>
+	<key>Program Display Info</key>
+	<dict>
+		<key>LuaAppDocument remote Lua service</key>
+		<string>TextKitSimpleLayout - TextKitLayout (iPad de Jean-Luc)</string>
+		<key>LuaAppDocument-associatedXodeProject</key>
+		<dict>
+			<key>platform</key>
+			<string>iphoneos</string>
+			<key>project</key>
+			<string>TextKitSimpleLayout.xcodeproj</string>
+			<key>target</key>
+			<string>TextKitSimpleLayout</string>
+		</dict>
+		<key>LuaAppWindow edited source path</key>
+		<string>ViewController</string>
+		<key>LuaAppWindow frame</key>
+		<string>1144 477 1300 746 0 0 2560 1418 </string>
+	</dict>
+	<key>Program Format Version</key>
+	<string>0.9</string>
+	<key>Program Groups Order</key>
+	<dict>
+		<key></key>
+		<array>
+			<string>ViewController</string>
+			<string>Chrysler_Building</string>
+			<string>Rockefeller</string>
+		</array>
+	</dict>
+	<key>Program Source Files Info</key>
+	<dict>
+		<key></key>
+		<dict>
+			<key>RootGroupId</key>
+			<string>SImpleImage</string>
+			<key>SourceItemDisplayInfo</key>
+			<dict>
+				<key>ListController Group IsExpanded</key>
+				<true/>
+			</dict>
+		</dict>
+		<key>Chrysler_Building</key>
+		<dict>
+			<key>SourceItemChangeTime</key>
+			<real>421271287.76859099</real>
+			<key>SourceItemOriginalFilePath</key>
+			<string>/Users/jean-luc/Developpement/CocoaHeads/TextKit Rennes #17 - TextKit/Apps CodeFlow/TextKitSimpleLayout/TextKitSimpleLayout/Chrysler_Building.jpg</string>
+			<key>SourceItemUrlBookmark</key>
+			<data>
+			Ym9va8wEAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAyAMAAAUAAAABAQAAVXNlcnMAAAAIAAAAAQEAAGpl
+			YW4tbHVjDQAAAAEBAABEZXZlbG9wcGVtZW50AAAACgAAAAEBAABD
+			b2NvYUhlYWRzAAAcAAAAAQEAAFRleHRLaXQgUmVubmVzICMxNyAt
+			IFRleHRLaXQNAAAAAQEAAEFwcHMgQ29kZUZsb3cAAAATAAAAAQEA
+			AFRleHRLaXRTaW1wbGVMYXlvdXQAFQAAAAEBAABDaHJ5c2xlcl9C
+			dWlsZGluZy5qcGcAAAAkAAAAAQYAAAQAAAAUAAAAJAAAADwAAABQ
+			AAAAdAAAAIwAAACMAAAAqAAAAAgAAAAEAwAAfGQCAAAAAAAIAAAA
+			BAMAAMN7TgAAAAAACAAAAAQDAAA1g04AAAAAAAgAAAAEAwAAEt5P
+			AAAAAAAIAAAABAMAABXeTwAAAAAACAAAAAQDAAAX3k8AAAAAAAgA
+			AAAEAwAAGd5PAAAAAAAIAAAABAMAALPeTwAAAAAACAAAAAQDAAC4
+			3k8AAAAAACQAAAABBgAA9AAAAAQBAAAUAQAAJAEAADQBAABEAQAA
+			VAEAAGQBAAB0AQAACAAAAAAEAABBuPyBHwAAABgAAAABAgAAAQAA
+			AAAAAAAPAAAAAAAAAAAAAAAAAAAACAAAAAQDAAAHAAAAAAAAAAQA
+			AAADAwAA9wEAAAwAAAABAQAATWFjaW50b3NoIEhECAAAAAQDAAAA
+			AAbOAwEAAAgAAAAABAAAQbgi/8AAAAAkAAAAAQEAADFCQjM0QjhB
+			LTdGNTktM0MyOS05QkE5LTIxM0FFODQ5Mzg2RRgAAAABAgAAgQAA
+			AAEACADvFwAAAQAIAAAAAAAAAAAAAQAAAAEBAAAvAAAAAAAAAAEF
+			AAAEAAAAAwMAAAADAAAiAQAAAQIAADg4NjY3NWYyMjc1ODI0MmEy
+			NmRkMzVmN2M1MzQyZDNmMjMwMDk5NTQ7MDAwMDAwMDA7MDAwMDAw
+			MDA7MDAwMDAwMDAwMDAwMDAyMDtjb20uYXBwbGUuYXBwLXNhbmRi
+			b3gucmVhZC13cml0ZTswMDAwMDAwMTswMTAwMDAwODswMDAwMDAw
+			MDAwNGZkZWI4Oy91c2Vycy9qZWFuLWx1Yy9kZXZlbG9wcGVtZW50
+			L2NvY29haGVhZHMvdGV4dGtpdCByZW5uZXMgIzE3IC0gdGV4dGtp
+			dC9hcHBzIGNvZGVmbG93L3RleHRraXRzaW1wbGVsYXlvdXQvdGV4
+			dGtpdHNpbXBsZWxheW91dC9jaHJ5c2xlcl9idWlsZGluZy5qcGcA
+			AADMAAAA/v///wEAAAAAAAAAEAAAAAQQAADIAAAAAAAAAAUQAACE
+			AQAAAAAAABAQAADAAQAAAAAAAEAQAACwAQAAAAAAAAIgAAB8AgAA
+			AAAAABAgAAD8AQAAAAAAABEgAAAwAgAAAAAAABIgAAAQAgAAAAAA
+			ABMgAAAgAgAAAAAAACAgAABcAgAAAAAAADAgAACIAgAAAAAAAAHA
+			AADgAQAAAAAAABHAAAAUAAAAAAAAABLAAADwAQAAAAAAABDQAACQ
+			AgAAAAAAAIDwAACcAgAAAAAAAA==
+			</data>
+		</dict>
+		<key>Rockefeller</key>
+		<dict>
+			<key>SourceItemChangeTime</key>
+			<real>428829147.29791999</real>
+			<key>SourceItemOriginalFilePath</key>
+			<string>/Users/jean-luc/Developpement/CocoaHeads/TextKit Rennes #17 - TextKit/Apps CodeFlow/TextKitSimpleLayout/TextKitSimpleLayout/Rockefeller.png</string>
+			<key>SourceItemUrlBookmark</key>
+			<data>
+			Ym9va7wEAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAuAMAAAUAAAABAQAAVXNlcnMAAAAIAAAAAQEAAGpl
+			YW4tbHVjDQAAAAEBAABEZXZlbG9wcGVtZW50AAAACgAAAAEBAABD
+			b2NvYUhlYWRzAAAcAAAAAQEAAFRleHRLaXQgUmVubmVzICMxNyAt
+			IFRleHRLaXQNAAAAAQEAAEFwcHMgQ29kZUZsb3cAAAATAAAAAQEA
+			AFRleHRLaXRTaW1wbGVMYXlvdXQADwAAAAEBAABSb2NrZWZlbGxl
+			ci5wbmcAJAAAAAEGAAAEAAAAFAAAACQAAAA8AAAAUAAAAHQAAACM
+			AAAAjAAAAKgAAAAIAAAABAMAAHxkAgAAAAAACAAAAAQDAADDe04A
+			AAAAAAgAAAAEAwAANYNOAAAAAAAIAAAABAMAABLeTwAAAAAACAAA
+			AAQDAAAV3k8AAAAAAAgAAAAEAwAAF95PAAAAAAAIAAAABAMAABne
+			TwAAAAAACAAAAAQDAACz3k8AAAAAAAgAAAAEAwAAwd5PAAAAAAAk
+			AAAAAQYAAOwAAAD8AAAADAEAABwBAAAsAQAAPAEAAEwBAABcAQAA
+			bAEAAAgAAAAABAAAQbj9aHoAAAAYAAAAAQIAAAEAAAAAAAAADwAA
+			AAAAAAAAAAAAAAAAAAgAAAAEAwAABwAAAAAAAAAEAAAAAwMAAPcB
+			AAAMAAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAAAGzgMBAAAI
+			AAAAAAQAAEG4Iv/AAAAAJAAAAAEBAAAxQkIzNEI4QS03RjU5LTND
+			MjktOUJBOS0yMTNBRTg0OTM4NkUYAAAAAQIAAIEAAAABAAgA7xcA
+			AAEACAAAAAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAABAAAAAMD
+			AAAAAwAAHAEAAAECAAAzZWUwYWMyNzFiZDJmM2U2MjYyNmQ4OTJk
+			Njc2ZDEwNWIxNDU1NzkyOzAwMDAwMDAwOzAwMDAwMDAwOzAwMDAw
+			MDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFwcC1zYW5kYm94LnJlYWQt
+			d3JpdGU7MDAwMDAwMDE7MDEwMDAwMDg7MDAwMDAwMDAwMDRmZGVj
+			MTsvdXNlcnMvamVhbi1sdWMvZGV2ZWxvcHBlbWVudC9jb2NvYWhl
+			YWRzL3RleHRraXQgcmVubmVzICMxNyAtIHRleHRraXQvYXBwcyBj
+			b2RlZmxvdy90ZXh0a2l0c2ltcGxlbGF5b3V0L3RleHRraXRzaW1w
+			bGVsYXlvdXQvcm9ja2VmZWxsZXIucG5nAMwAAAD+////AQAAAAAA
+			AAAQAAAABBAAAMAAAAAAAAAABRAAAHwBAAAAAAAAEBAAALgBAAAA
+			AAAAQBAAAKgBAAAAAAAAAiAAAHQCAAAAAAAAECAAAPQBAAAAAAAA
+			ESAAACgCAAAAAAAAEiAAAAgCAAAAAAAAEyAAABgCAAAAAAAAICAA
+			AFQCAAAAAAAAMCAAAIACAAAAAAAAAcAAANgBAAAAAAAAEcAAABQA
+			AAAAAAAAEsAAAOgBAAAAAAAAENAAAIgCAAAAAAAAgPAAAJQCAAAA
+			AAAA
+			</data>
+		</dict>
+		<key>ViewController</key>
+		<dict>
+			<key>Source File Auto Reload</key>
+			<true/>
+			<key>Source File Is Start Item</key>
+			<false/>
+			<key>Source File Name</key>
+			<string>ViewController</string>
+			<key>SourceItemChangeTime</key>
+			<real>433373714.908903</real>
+			<key>SourceItemDisplayInfo</key>
+			<dict>
+				<key>SrcEditor Selected Length</key>
+				<integer>0</integer>
+				<key>SrcEditor Selected Location</key>
+				<integer>197</integer>
+				<key>SrcEditor Visible Length</key>
+				<integer>1489</integer>
+				<key>SrcEditor Visible Location</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
