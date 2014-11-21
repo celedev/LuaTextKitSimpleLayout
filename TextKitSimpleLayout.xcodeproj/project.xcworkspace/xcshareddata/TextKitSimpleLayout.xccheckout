@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>122831E6-0186-4622-B673-AC39AAECD19F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TextKitSimpleLayout</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AEF7815D4AE50E0E0C6FB70210E34B36947D38BE</key>
+		<string>https://github.com/celedev/LuaTextKitSimpleLayout.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TextKitSimpleLayout.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AEF7815D4AE50E0E0C6FB70210E34B36947D38BE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/celedev/LuaTextKitSimpleLayout.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AEF7815D4AE50E0E0C6FB70210E34B36947D38BE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AEF7815D4AE50E0E0C6FB70210E34B36947D38BE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TextKitSimpleLayout</string>
+		</dict>
+	</array>
+</dict>
+</plist>
