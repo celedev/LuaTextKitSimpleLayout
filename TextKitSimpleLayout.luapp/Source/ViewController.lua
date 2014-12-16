@@ -1,11 +1,13 @@
 local UiView = require 'UIKit.UIView'
-local Cg = require "CoreGraphics.CGGeometry"
 local CgAffineTransform = require "CoreGraphics.CGAffineTransform"
 local NsString = require "Foundation.NSString"
 
-local NsRange = require "Foundation.NSRange"
-local NSMakeRange = NsRange.NSMakeRange
-local NSMaxRange = NsRange.NSMaxRange
+local NSRange = struct.NSRange
+function NSRange:max()
+    return self.location + self.length
+end
+
+local CGRect = struct.CGRect
 
 local ViewController = class.extendClass (objc.ViewController --[[@inherits UIViewController]])
 
@@ -71,11 +73,10 @@ function ViewController:updateTextSystem ()
         local PathImageView = objc.PathImageView --[[@inherits UIView]]
         
         local viewBounds = self.view.bounds
-        local panImageSize = Cg.CGSizeMake(300, 400)
-        local panImageFrame = Cg.CGRectMake(Cg.CGRectGetMidX(viewBounds) - panImageSize.width / 2,
-                                            Cg.CGRectGetMidY(viewBounds) - panImageSize.height / 2,
-                                            panImageSize.width, panImageSize.height)
-        local panImagePath = objc.UIBezierPath:bezierPathWithOvalInRect(Cg.CGRectMake(0, 0, panImageSize.width, panImageSize.height))
+        local panImageSize = struct.CGSize(300, 400)
+        local panImageFrame = CGRect(viewBounds:getMidX() - panImageSize.width / 2, viewBounds:getMidY() - panImageSize.height / 2,
+                                     panImageSize.width, panImageSize.height)
+        local panImagePath = objc.UIBezierPath:bezierPathWithOvalInRect(CGRect(0, 0, panImageSize.width, panImageSize.height))
         local panImage = objc.UIImage:imageNamed "Chrysler_Building.jpg"
         
         self.panImageView = PathImageView:newWithFrame_shape_image(panImageFrame, panImagePath)
@@ -95,12 +96,12 @@ function ViewController:updateTextSystem ()
         -- calculate the insert location (after 5th paragraph)
         local paragraphIndex = 0
         local insertLocation = -1
-        self.textStorage.string:enumerateSubstringsInRange_options_usingBlock(NSMakeRange(0, self.textStorage.length),
+        self.textStorage.string:enumerateSubstringsInRange_options_usingBlock(NSRange(0, self.textStorage.length),
                                                                               NsString.EnumerationOptions.ByParagraphs,
                                                                               function (substring, range, enclosingRange)
                                                                                   paragraphIndex = paragraphIndex + 1
                                                                                   if paragraphIndex == 5 then
-                                                                                      insertLocation = NSMaxRange(enclosingRange)
+                                                                                      insertLocation = enclosingRange:max()
                                                                                       return true
                                                                                   end
                                                                               end)
@@ -110,11 +111,14 @@ function ViewController:updateTextSystem ()
         end
     end
     
-    -- self.panImageView.viewShape = objc.UIBezierPath:bezierPathWithOvalInRect(CG.CGRectMake(0, 0, 300, 500), 90.0)
-    self.panImageView.viewShape = objc.UIBezierPath:bezierPathWithRoundedRect_cornerRadius(Cg.CGRectMake(0, 0, 340, 500), 100.0)
+    -- Try to uncomment the lines below and see how the shape changes
+    
+    -- self.panImageView.viewShape = objc.UIBezierPath:bezierPathWithOvalInRect(CGRect(0, 0, 300, 500), 90.0)
+    -- self.panImageView.viewShape = objc.UIBezierPath:bezierPathWithRoundedRect_cornerRadius(CGRect(0, 0, 340, 500), 100.0)
+    
     getResource("Chrysler_Building", "public.image", self.panImageView, "viewImage")
     
-    self.textAttachement.bounds = { x = 0, y = 0, width = 95, height = 100}
+    self.textAttachement.bounds = CGRect(0, 0, 95, 100)
     
     self:updateExclusionPaths()
 end
@@ -125,7 +129,7 @@ function ViewController:setExclusionPathForPathImageViewInTextView (pathImageVie
     local pathOrigin = textView:convertPoint_fromView (pathImageView.bounds.origin, pathImageView)
     local textContainerEdgeInset = textView.textContainerInset
     
-    exclusionPath:applyTransform (CgAffineTransform.MakeTranslation(pathOrigin.x - textContainerEdgeInset.left, 
+    exclusionPath:applyTransform (CgAffineTransform.MakeTranslation (pathOrigin.x - textContainerEdgeInset.left, 
                                                                      pathOrigin.y - textContainerEdgeInset.top))
     textView.textContainer.exclusionPaths = { exclusionPath }
 end
