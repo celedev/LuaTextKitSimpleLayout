@@ -792,14 +792,14 @@
 				<string>TextKitSimpleLayout/TextKitSimpleLayout-Prefix.pch</string>
 				<key>HEADER_SEARCH_PATHS</key>
 				<array>
-					<string>"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos/include"</string>
+					<string>$(USER_LIBRARY_DIR)/Application\ Support/com.celedev.CodeFlow/iphoneos/include</string>
 				</array>
 				<key>INFOPLIST_FILE</key>
 				<string>TextKitSimpleLayout/TextKitSimpleLayout-Info.plist</string>
 				<key>LIBRARY_SEARCH_PATHS</key>
 				<array>
-					<string>"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos"</string>
-					<string>"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.1-SDK.luabindings/BindingLibs"</string>
+					<string>$(USER_LIBRARY_DIR)/Application\ Support/com.celedev.CodeFlow/iphoneos</string>
+					<string>$(USER_LIBRARY_DIR)/Application\ Support/com.celedev.CodeFlow/iphoneos/iOS-8.1-SDK.luabindings/BindingLibs</string>
 				</array>
 				<key>OTHER_LDFLAGS</key>
 				<string>-ObjC</string>
@@ -829,14 +829,14 @@
 				<string>TextKitSimpleLayout/TextKitSimpleLayout-Prefix.pch</string>
 				<key>HEADER_SEARCH_PATHS</key>
 				<array>
-					<string>"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos/include"</string>
+					<string>$(USER_LIBRARY_DIR)/Application\ Support/com.celedev.CodeFlow/iphoneos/include</string>
 				</array>
 				<key>INFOPLIST_FILE</key>
 				<string>TextKitSimpleLayout/TextKitSimpleLayout-Info.plist</string>
 				<key>LIBRARY_SEARCH_PATHS</key>
 				<array>
-					<string>"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos"</string>
-					<string>"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.1-SDK.luabindings/BindingLibs"</string>
+					<string>$(USER_LIBRARY_DIR)/Application\ Support/com.celedev.CodeFlow/iphoneos</string>
+					<string>$(USER_LIBRARY_DIR)/Application\ Support/com.celedev.CodeFlow/iphoneos/iOS-8.1-SDK.luabindings/BindingLibs</string>
 				</array>
 				<key>OTHER_LDFLAGS</key>
 				<string>-ObjC</string>

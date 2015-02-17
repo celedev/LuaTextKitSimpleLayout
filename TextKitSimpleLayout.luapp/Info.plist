@@ -13,8 +13,6 @@
 	</array>
 	<key>Program Display Info</key>
 	<dict>
-		<key>LuaAppDocument remote Lua service</key>
-		<string>TextKitSimpleLayout - TextKitLayout (Celedev's iPad)</string>
 		<key>LuaAppDocument-associatedXodeProject</key>
 		<dict>
 			<key>platform</key>
@@ -27,7 +25,7 @@
 		<key>LuaAppWindow edited source path</key>
 		<string>ViewController</string>
 		<key>LuaAppWindow frame</key>
-		<string>1060 499 1300 746 0 0 2560 1417 </string>
+		<string>50 449 1300 746 0 0 2560 1417 </string>
 	</dict>
 	<key>Program Format Version</key>
 	<string>0.9</string>
@@ -80,8 +78,8 @@
 			AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAABGpwMBAAAIAAAA
 			AAQAAEG4Iv/AAAAAJAAAAAEBAAAxQkIzNEI4QS03RjU5LTNDMjkt
 			OUJBOS0yMTNBRTg0OTM4NkUYAAAAAQIAAIEAAAABAAgA7xcAAAEA
-			CAAAAAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAAIgEAAAECAAAx
-			YTFhOGY1ZTk3MGRmYmZjYWFjODkxNmU5ZjgwNTk2NTlkYTk5MGUy
+			CAAAAAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAAIgEAAAECAAA5
+			NTM3NTI3MjEwY2VmMGVmODZlZDE0ZDdhZmVlZDU2ZTM3MzAxMTBi
 			OzAwMDAwMDAwOzAwMDAwMDAwOzAwMDAwMDAwMDAwMDAwMjA7Y29t
 			LmFwcGxlLmFwcC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAwMDE7
 			MDEwMDAwMDg7MDAwMDAwMDAwMDRmZGViODsvdXNlcnMvamVhbi1s
@@ -123,8 +121,8 @@
 			YWNpbnRvc2ggSEQIAAAABAMAAAAARqcDAQAACAAAAAAEAABBuCL/
 			wAAAACQAAAABAQAAMUJCMzRCOEEtN0Y1OS0zQzI5LTlCQTktMjEz
 			QUU4NDkzODZFGAAAAAECAACBAAAAAQAIAO8XAAABAAgAAAAAAAAA
-			AAABAAAAAQEAAC8AAAAAAAAAAQUAABwBAAABAgAAZWYzNGUzZjZj
-			ODBlZjlhZjc2ODBhYzA1NTI4MTZmYWQ5MzhhMTE5MzswMDAwMDAw
+			AAABAAAAAQEAAC8AAAAAAAAAAQUAABwBAAABAgAAOGMyM2FiMDE1
+			OTNkYTYyZDc1MzBkY2E0OWE3NmU0NTBmZDlhMzkzNTswMDAwMDAw
 			MDswMDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2NvbS5hcHBsZS5h
 			cHAtc2FuZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzAxMDAwMDA4
 			OzAwMDAwMDAwMDA0ZmRlYzE7L3VzZXJzL2plYW4tbHVjL2RldmVs
@@ -158,11 +156,11 @@
 				<key>SrcEditor Selected Length</key>
 				<integer>0</integer>
 				<key>SrcEditor Selected Location</key>
-				<integer>7018</integer>
+				<integer>5983</integer>
 				<key>SrcEditor Visible Length</key>
-				<integer>1537</integer>
+				<integer>1686</integer>
 				<key>SrcEditor Visible Location</key>
-				<integer>5505</integer>
+				<integer>5356</integer>
 			</dict>
 		</dict>
 	</dict>
