@@ -6,7 +6,7 @@ This is an example of mixed Lua + Objective-C application with the screen layout
 
 ## Configuration required
 
-A Mac with Celedev CodeFlow version 0.9.11 or greater installed.
+A Mac with Celedev CodeFlow version 0.9.15 or greater installed.
 
 Works on iPad, running iOS 7 or later.
 
@@ -33,7 +33,7 @@ Works on iPad, running iOS 7 or later.
 
 - **Link errors (missing symbols) occur when I compile the Xcode project**
 
-  **Most probable cause**: if you are using Xcode 5 (and thus iOS 7.1 SDK), these errors occur because the sample app is configured for the iOS 8 SDK.
+  **Most probable cause**: if you are using Xcode 5 (and thus iOS 7.1 SDK), these errors occur because the sample app is configured for the (default) iOS 8 SDK.
 
   **⇒ Fix**: In the CodeFlow project, use the bindings library for the iOS 7.1 SDK in replacement of the one for the iOS 8 SDK
 	- Download [CodeFlow bindings for iOS 7.1 SDK](https://www.celedev.com/en/support/downloads/codeflow-bindings-ios7-1-sdk.dmg), and double-click on the .luabindings library file to install it in codeFlow; 

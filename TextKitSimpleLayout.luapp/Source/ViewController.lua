@@ -9,7 +9,7 @@ end
 
 local CGRect = struct.CGRect
 
-local ViewController = class.extendClass (objc.ViewController --[[@inherits UIViewController]])
+local ViewController = class.extendClass (objc.ViewController)
 
 local superclass = ViewController.superclass
 

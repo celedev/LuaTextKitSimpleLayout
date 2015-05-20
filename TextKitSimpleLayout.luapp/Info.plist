@@ -6,21 +6,137 @@
 	<array>
 		<dict>
 			<key>LibId</key>
-			<string>apple_sdk_iphoneos8.1</string>
+			<string>apple_sdk_iphoneos8.3</string>
 			<key>LibName</key>
 			<string>iOS</string>
+		</dict>
+		<dict>
+			<key>BindingsLibSourceGroupType</key>
+			<string>SelfGeneratedBindingsLib</string>
+			<key>CustomBindingsLibBindingsSourcePath</key>
+			<string>/Volumes/Brume/Celedev CodeFlow/CodeFlow Sample Applications/TextKitSimpleLayout/TextKitSimpleLayout.xcodeproj</string>
+			<key>CustomBindingsLibHeadersParsingOptions</key>
+			<array>
+				<string>-include</string>
+				<string>/Volumes/Brume/Celedev CodeFlow/CodeFlow Sample Applications/TextKitSimpleLayout/TextKitSimpleLayout/TextKitSimpleLayout-Prefix.pch</string>
+				<string>-fobjc-arc</string>
+			</array>
+			<key>CustomBindingsLibHeadersSearchPaths</key>
+			<array>
+				<string>$(USER_LIBRARY_DIR)/Application\ Support/com.celedev.CodeFlow/iphoneos/include</string>
+				<string>$(USER_LIBRARY_DIR)/Application\ Support/com.celedev.CodeFlow/headers</string>
+			</array>
+			<key>CustomBindingsLibLastGenerationDate</key>
+			<date>2015-05-20T16:21:14Z</date>
+			<key>CustomBindingsLibSourceFilesTree</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGjo9YJHZlcnNpb25YJG9iamVjdHNZJGFy
+			Y2hpdmVyVCR0b3ASAAGGoK8QJwcIERIXHB0jKCkvMDY9Pj9DSE1O
+			UlNfYGFiY2RlamtvcHx9foGFilUkbnVsbNQJCgsMDQ4PEFZvYmpl
+			Y3RUbmFtZVphdHRyaWJ1dGVzViRjbGFzc4ADgAKAJoAlUNITDBQW
+			Wk5TLm9iamVjdHOhFYAEgCPUCQoLDBgZGhCABoAFgCSAJV8QE1Rl
+			eHRLaXRTaW1wbGVMYXlvdXTSEwweFqMfICGAB4ARgByAI9QJCgsM
+			JCUmJ4AJgAiADIAQXUFwcERlbGVnYXRlLmjTKgwrLC0uV05TLmJh
+			c2VbTlMucmVsYXRpdmWAAIALgApfEH9maWxlOi8vL1ZvbHVtZXMv
+			QnJ1bWUvQ2VsZWRldiUyMENvZGVGbG93L0NvZGVGbG93JTIwU2Ft
+			cGxlJTIwQXBwbGljYXRpb25zL1RleHRLaXRTaW1wbGVMYXlvdXQv
+			VGV4dEtpdFNpbXBsZUxheW91dC9BcHBEZWxlZ2F0ZS5o0jEyMzRa
+			JGNsYXNzbmFtZVgkY2xhc3Nlc1VOU1VSTKIzNVhOU09iamVjdNM3
+			Eww4OjxXTlMua2V5c6E5gA2hO4AOgA9Yc2VsZWN0ZWQI0jEyQEFf
+			EBNOU011dGFibGVEaWN0aW9uYXJ5o0BCNVxOU0RpY3Rpb25hcnnS
+			MTJERVxDREZMTmFtZWRVcmyjRkc1XENERkxOYW1lZFVybF1DREZM
+			TmFtZWRJdGVt1AkKCwxJSksngBOAEoAVgBBfEBBWaWV3Q29udHJv
+			bGxlci5o0yoMKywtUYAAgAuAFF8QgmZpbGU6Ly8vVm9sdW1lcy9C
+			cnVtZS9DZWxlZGV2JTIwQ29kZUZsb3cvQ29kZUZsb3clMjBTYW1w
+			bGUlMjBBcHBsaWNhdGlvbnMvVGV4dEtpdFNpbXBsZUxheW91dC9U
+			ZXh0S2l0U2ltcGxlTGF5b3V0L1ZpZXdDb250cm9sbGVyLmjTNxMM
+			VFk8pFVWOViAFoAXgA2AGKRaW1tdgBmAGoAagBuAD18QEmdlbmVy
+			YXRpb25GaWxlRGF0ZV8QFGdlbmVyYXRpb25EaWRTdWNjZWVkXxAX
+			Z2VuZXJhdGlvbkx1YU1vZHVrZVBhdGgjQbkQA0QAAAAJXlZpZXdD
+			b250cm9sbGVy1AkKCwxmZ2gngB6AHYAggBBfEA9QYXRoSW1hZ2VW
+			aWV3LmjTKgwrLC1ugACAC4AfXxCBZmlsZTovLy9Wb2x1bWVzL0Jy
+			dW1lL0NlbGVkZXYlMjBDb2RlRmxvdy9Db2RlRmxvdyUyMFNhbXBs
+			ZSUyMEFwcGxpY2F0aW9ucy9UZXh0S2l0U2ltcGxlTGF5b3V0L1Rl
+			eHRLaXRTaW1wbGVMYXlvdXQvUGF0aEltYWdlVmlldy5o0zcTDHF2
+			PKRVVjlYgBaAF4ANgBikd1tbeoAhgBqAGoAigA8jQbkadt4AAABd
+			UGF0aEltYWdlVmlld9IxMn+AV05TQXJyYXmifzXTNxMMgoM8oKCA
+			D9IxMoaHXkNERkxOYW1lZEdyb3Vwo4iJNV5DREZMTmFtZWRHcm91
+			cF1DREZMTmFtZWRJdGVt0zcTDIuMPKCggA9fEA9OU0tleWVkQXJj
+			aGl2ZXLRkJFUcm9vdIABAAgAEQAaACMALQAyADcAYQBnAHAAdwB8
+			AIcAjgCQAJIAlACWAJcAnACnAKkAqwCtALYAuAC6ALwAvgDUANkA
+			3QDfAOEA4wDlAO4A8ADyAPQA9gEEAQsBEwEfASEBIwElAacBrAG3
+			AcABxgHJAdIB2QHhAeMB5QHnAekB6wH0AfUB+gIQAhQCIQImAjMC
+			NwJEAlICWwJdAl8CYQJjAnYCfQJ/AoECgwMIAw8DFAMWAxgDGgMc
+			AyEDIwMlAycDKQMrA0ADVwNxA3oDewOKA5MDlQOXA5kDmwOtA7QD
+			tgO4A7oEPgRFBEoETAROBFAEUgRXBFkEWwRdBF8EYQRqBHgEfQSF
+			BIgEjwSQBJEEkwSYBKcEqwS6BMgEzwTQBNEE0wTlBOgE7QAAAAAA
+			AAIBAAAAAAAAAJIAAAAAAAAAAAAAAAAAAATv
+			</data>
+			<key>CustomBindingsLibTargetOSVersion</key>
+			<string>7.1</string>
+			<key>CustomBindingsLibXcodeTargetInfo</key>
+			<dict>
+				<key>target</key>
+				<string>TextKitSimpleLayout</string>
+				<key>targetSdk</key>
+				<string>iphoneos</string>
+				<key>targetType</key>
+				<string>com.apple.product-type.application</string>
+			</dict>
+			<key>LibBookmark</key>
+			<data>
+			Ym9va/QEAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAA5AMAAAQAAAADAwAAAAIAAAUAAAABAQAAVXNlcnMA
+			AAAIAAAAAQEAAGplYW4tbHVjBwAAAAEBAABMaWJyYXJ5AAYAAAAB
+			AQAAQ2FjaGVzAAAUAAAAAQEAAGNvbS5jZWxlZGV2LkNvZGVGbG93
+			CAAAAAEBAABQcm9ncmFtcyQAAAABAQAAODJENDAwM0UtM0I2RC00
+			OTVGLTgyNkItRDgxNEVDOEMyRTlDDAAAAAEBAABFeHRlcm5hbExp
+			YnMfAAAAAQEAAFRleHRLaXRTaW1wbGVMYXlvdXQubHVhYmluZGlu
+			Z3MAJAAAAAEGAAAQAAAAIAAAADAAAABAAAAAUAAAAGwAAAB8AAAA
+			qAAAALwAAAAIAAAABAMAAHxkAgAAAAAACAAAAAQDAADDe04AAAAA
+			AAgAAAAEAwAAOHxOAAAAAAAIAAAABAMAAG58TgAAAAAACAAAAAQD
+			AADxT5ABAAAAAAgAAAAEAwAA93eQAQAAAAAIAAAABAMAAFCAkAEA
+			AAAACAAAAAQDAABRgJABAAAAAAgAAAAEAwAAUoCQAQAAAAAkAAAA
+			AQYAABABAAAgAQAAMAEAAEABAABQAQAAYAEAAHABAACAAQAAkAEA
+			AAgAAAAABAAAQbsM67YAAAAYAAAAAQIAAAIAAAAAAAAADwAAAAAA
+			AAAAAAAAAAAAAAgAAAAEAwAABwAAAAAAAAAEAAAAAwMAAPcBAAAI
+			AAAAAQkAAGZpbGU6Ly8vDAAAAAEBAABNYWNpbnRvc2ggSEQIAAAA
+			BAMAAAAARqcDAQAACAAAAAAEAABBuCL/wAAAACQAAAABAQAAMUJC
+			MzRCOEEtN0Y1OS0zQzI5LTlCQTktMjEzQUU4NDkzODZFGAAAAAEC
+			AACBAAAAAQAIAO8XAAABAAgAAAAAAAAAAAABAAAAAQEAAC8AAAAA
+			AAAAAQUAAB8BAAABAgAANDNiYThjNzc0NTIyMmE5NDEwOWRiMWE1
+			MzA2MGJmMzRkYjBkNDMwZjswMDAwMDAwMDswMDAwMDAwMDswMDAw
+			MDAwMDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2FuZGJveC5yZWFk
+			LXdyaXRlOzAwMDAwMDAxOzAxMDAwMDA4OzAwMDAwMDAwMDE5MDgw
+			NTI7L3VzZXJzL2plYW4tbHVjL2xpYnJhcnkvY2FjaGVzL2NvbS5j
+			ZWxlZGV2LmNvZGVmbG93L3Byb2dyYW1zLzgyZDQwMDNlLTNiNmQt
+			NDk1Zi04MjZiLWQ4MTRlYzhjMmU5Yy9leHRlcm5hbGxpYnMvdGV4
+			dGtpdHNpbXBsZWxheW91dC5sdWFiaW5kaW5ncwAA2AAAAP7///8B
+			AAAAAAAAABEAAAAEEAAA5AAAAAAAAAAFEAAAoAEAAAAAAAAQEAAA
+			3AEAAAAAAABAEAAAzAEAAAAAAAACIAAAqAIAAAAAAAAFIAAAGAIA
+			AAAAAAAQIAAAKAIAAAAAAAARIAAAXAIAAAAAAAASIAAAPAIAAAAA
+			AAATIAAATAIAAAAAAAAgIAAAiAIAAAAAAAAwIAAAtAIAAAAAAAAB
+			wAAA/AEAAAAAAAARwAAAIAAAAAAAAAASwAAADAIAAAAAAAAQ0AAA
+			BAAAAAAAAACA8AAAvAIAAAAAAAA=
+			</data>
+			<key>LibName</key>
+			<string>TextKitSimpleLayout</string>
+			<key>LibUrl</key>
+			<string>file:///Users/jean-luc/Library/Caches/com.celedev.CodeFlow/Programs/82D4003E-3B6D-495F-826B-D814EC8C2E9C/ExternalLibs/TextKitSimpleLayout.luabindings</string>
 		</dict>
 	</array>
 	<key>Program Display Info</key>
 	<dict>
 		<key>LuaAppDocument-associatedXodeProject</key>
 		<dict>
-			<key>platform</key>
-			<string>iphoneos</string>
 			<key>project</key>
 			<string>TextKitSimpleLayout.xcodeproj</string>
 			<key>target</key>
 			<string>TextKitSimpleLayout</string>
+			<key>targetSdk</key>
+			<string>iphoneos</string>
+			<key>targetType</key>
+			<string>com.apple.product-type.application</string>
 		</dict>
 		<key>LuaAppWindow edited source path</key>
 		<string>ViewController</string>
@@ -61,7 +177,7 @@
 			<key>SourceItemUrlBookmark</key>
 			<data>
 			Ym9va+gEAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-			AAAAAAAAAAAA2AMAAAQAAAADAwAAAAMAAAUAAAABAQAAVXNlcnMA
+			AAAAAAAAAAAA2AMAAAQAAAADAwAAAAIAAAUAAAABAQAAVXNlcnMA
 			AAAIAAAAAQEAAGplYW4tbHVjDQAAAAEBAABEZXZlbG9wcGVtZW50
 			AAAACgAAAAEBAABDb2NvYUhlYWRzAAAcAAAAAQEAAFRleHRLaXQg
 			UmVubmVzICMxNyAtIFRleHRLaXQNAAAAAQEAAEFwcHMgQ29kZUZs
@@ -78,8 +194,8 @@
 			AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAABGpwMBAAAIAAAA
 			AAQAAEG4Iv/AAAAAJAAAAAEBAAAxQkIzNEI4QS03RjU5LTNDMjkt
 			OUJBOS0yMTNBRTg0OTM4NkUYAAAAAQIAAIEAAAABAAgA7xcAAAEA
-			CAAAAAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAAIgEAAAECAAA5
-			NTM3NTI3MjEwY2VmMGVmODZlZDE0ZDdhZmVlZDU2ZTM3MzAxMTBi
+			CAAAAAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAAIgEAAAECAAA3
+			MDQ0YjBmMTI4NjkxNGU4MWUzN2FhY2U1N2NhMzU0NDQ1OTNlOGY4
 			OzAwMDAwMDAwOzAwMDAwMDAwOzAwMDAwMDAwMDAwMDAwMjA7Y29t
 			LmFwcGxlLmFwcC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAwMDE7
 			MDEwMDAwMDg7MDAwMDAwMDAwMDRmZGViODsvdXNlcnMvamVhbi1s
@@ -104,7 +220,7 @@
 			<key>SourceItemUrlBookmark</key>
 			<data>
 			Ym9va9gEAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-			AAAAAAAAAAAAyAMAAAQAAAADAwAAAAMAAAUAAAABAQAAVXNlcnMA
+			AAAAAAAAAAAAyAMAAAQAAAADAwAAAAIAAAUAAAABAQAAVXNlcnMA
 			AAAIAAAAAQEAAGplYW4tbHVjDQAAAAEBAABEZXZlbG9wcGVtZW50
 			AAAACgAAAAEBAABDb2NvYUhlYWRzAAAcAAAAAQEAAFRleHRLaXQg
 			UmVubmVzICMxNyAtIFRleHRLaXQNAAAAAQEAAEFwcHMgQ29kZUZs
@@ -121,8 +237,8 @@
 			YWNpbnRvc2ggSEQIAAAABAMAAAAARqcDAQAACAAAAAAEAABBuCL/
 			wAAAACQAAAABAQAAMUJCMzRCOEEtN0Y1OS0zQzI5LTlCQTktMjEz
 			QUU4NDkzODZFGAAAAAECAACBAAAAAQAIAO8XAAABAAgAAAAAAAAA
-			AAABAAAAAQEAAC8AAAAAAAAAAQUAABwBAAABAgAAOGMyM2FiMDE1
-			OTNkYTYyZDc1MzBkY2E0OWE3NmU0NTBmZDlhMzkzNTswMDAwMDAw
+			AAABAAAAAQEAAC8AAAAAAAAAAQUAABwBAAABAgAAOWQwYzdiZjYw
+			YTEyMjJhY2NhYTI0MTNhMmY4N2I5NjMyMjJjMTM5YTswMDAwMDAw
 			MDswMDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2NvbS5hcHBsZS5h
 			cHAtc2FuZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzAxMDAwMDA4
 			OzAwMDAwMDAwMDA0ZmRlYzE7L3VzZXJzL2plYW4tbHVjL2RldmVs
@@ -141,26 +257,22 @@
 		<dict>
 			<key>Source File Auto Reload</key>
 			<true/>
-			<key>Source File Breakpoints</key>
-			<array>
-				<integer>7</integer>
-			</array>
 			<key>Source File Is Start Item</key>
 			<false/>
 			<key>Source File Name</key>
 			<string>ViewController</string>
 			<key>SourceItemChangeTime</key>
-			<real>440438933.699889</real>
+			<real>453831636.31107903</real>
 			<key>SourceItemDisplayInfo</key>
 			<dict>
 				<key>SrcEditor Selected Length</key>
 				<integer>0</integer>
 				<key>SrcEditor Selected Location</key>
-				<integer>5983</integer>
+				<integer>342</integer>
 				<key>SrcEditor Visible Length</key>
-				<integer>1686</integer>
+				<integer>1277</integer>
 				<key>SrcEditor Visible Location</key>
-				<integer>5356</integer>
+				<integer>0</integer>
 			</dict>
 		</dict>
 	</dict>
