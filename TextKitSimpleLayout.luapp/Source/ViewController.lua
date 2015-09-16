@@ -97,7 +97,7 @@ function ViewController:updateTextSystem ()
         local paragraphIndex = 0
         local insertLocation = -1
         self.textStorage.string:enumerateSubstringsInRange_options_usingBlock(NSRange(0, self.textStorage.length),
-                                                                              NsString.EnumerationOptions.ByParagraphs,
+                                                                              NsString.Enumeration.ByParagraphs,
                                                                               function (substring, range, enclosingRange)
                                                                                   paragraphIndex = paragraphIndex + 1
                                                                                   if paragraphIndex == 5 then

@@ -6,7 +6,7 @@
 	<array>
 		<dict>
 			<key>LibId</key>
-			<string>apple_sdk_iphoneos8.3</string>
+			<string>apple_sdk_iphoneos9.0</string>
 			<key>LibName</key>
 			<string>iOS</string>
 		</dict>
@@ -14,12 +14,17 @@
 			<key>BindingsLibSourceGroupType</key>
 			<string>SelfGeneratedBindingsLib</string>
 			<key>CustomBindingsLibBindingsSourcePath</key>
-			<string>/Volumes/Brume/Celedev CodeFlow/CodeFlow Sample Applications/TextKitSimpleLayout/TextKitSimpleLayout.xcodeproj</string>
+			<string>TextKitSimpleLayout.xcodeproj</string>
+			<key>CustomBindingsLibCompilationOptions</key>
+			<array>
+				<string>-fembed-bitcode</string>
+			</array>
 			<key>CustomBindingsLibHeadersParsingOptions</key>
 			<array>
 				<string>-include</string>
 				<string>/Volumes/Brume/Celedev CodeFlow/CodeFlow Sample Applications/TextKitSimpleLayout/TextKitSimpleLayout/TextKitSimpleLayout-Prefix.pch</string>
 				<string>-fobjc-arc</string>
+				<string>-fmodules</string>
 			</array>
 			<key>CustomBindingsLibHeadersSearchPaths</key>
 			<array>
@@ -27,7 +32,9 @@
 				<string>$(USER_LIBRARY_DIR)/Application\ Support/com.celedev.CodeFlow/headers</string>
 			</array>
 			<key>CustomBindingsLibLastGenerationDate</key>
-			<date>2015-05-20T16:21:14Z</date>
+			<date>2015-09-16T12:27:53Z</date>
+			<key>CustomBindingsLibPlatformSdkName</key>
+			<string>iphoneos9.0</string>
 			<key>CustomBindingsLibSourceFilesTree</key>
 			<data>
 			YnBsaXN0MDDUAQIDBAUGjo9YJHZlcnNpb25YJG9iamVjdHNZJGFy
@@ -83,46 +90,6 @@
 				<key>targetType</key>
 				<string>com.apple.product-type.application</string>
 			</dict>
-			<key>LibBookmark</key>
-			<data>
-			Ym9va/QEAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-			AAAAAAAAAAAA5AMAAAQAAAADAwAAAAIAAAUAAAABAQAAVXNlcnMA
-			AAAIAAAAAQEAAGplYW4tbHVjBwAAAAEBAABMaWJyYXJ5AAYAAAAB
-			AQAAQ2FjaGVzAAAUAAAAAQEAAGNvbS5jZWxlZGV2LkNvZGVGbG93
-			CAAAAAEBAABQcm9ncmFtcyQAAAABAQAAODJENDAwM0UtM0I2RC00
-			OTVGLTgyNkItRDgxNEVDOEMyRTlDDAAAAAEBAABFeHRlcm5hbExp
-			YnMfAAAAAQEAAFRleHRLaXRTaW1wbGVMYXlvdXQubHVhYmluZGlu
-			Z3MAJAAAAAEGAAAQAAAAIAAAADAAAABAAAAAUAAAAGwAAAB8AAAA
-			qAAAALwAAAAIAAAABAMAAHxkAgAAAAAACAAAAAQDAADDe04AAAAA
-			AAgAAAAEAwAAOHxOAAAAAAAIAAAABAMAAG58TgAAAAAACAAAAAQD
-			AADxT5ABAAAAAAgAAAAEAwAA93eQAQAAAAAIAAAABAMAAFCAkAEA
-			AAAACAAAAAQDAABRgJABAAAAAAgAAAAEAwAAUoCQAQAAAAAkAAAA
-			AQYAABABAAAgAQAAMAEAAEABAABQAQAAYAEAAHABAACAAQAAkAEA
-			AAgAAAAABAAAQbsM67YAAAAYAAAAAQIAAAIAAAAAAAAADwAAAAAA
-			AAAAAAAAAAAAAAgAAAAEAwAABwAAAAAAAAAEAAAAAwMAAPcBAAAI
-			AAAAAQkAAGZpbGU6Ly8vDAAAAAEBAABNYWNpbnRvc2ggSEQIAAAA
-			BAMAAAAARqcDAQAACAAAAAAEAABBuCL/wAAAACQAAAABAQAAMUJC
-			MzRCOEEtN0Y1OS0zQzI5LTlCQTktMjEzQUU4NDkzODZFGAAAAAEC
-			AACBAAAAAQAIAO8XAAABAAgAAAAAAAAAAAABAAAAAQEAAC8AAAAA
-			AAAAAQUAAB8BAAABAgAANDNiYThjNzc0NTIyMmE5NDEwOWRiMWE1
-			MzA2MGJmMzRkYjBkNDMwZjswMDAwMDAwMDswMDAwMDAwMDswMDAw
-			MDAwMDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2FuZGJveC5yZWFk
-			LXdyaXRlOzAwMDAwMDAxOzAxMDAwMDA4OzAwMDAwMDAwMDE5MDgw
-			NTI7L3VzZXJzL2plYW4tbHVjL2xpYnJhcnkvY2FjaGVzL2NvbS5j
-			ZWxlZGV2LmNvZGVmbG93L3Byb2dyYW1zLzgyZDQwMDNlLTNiNmQt
-			NDk1Zi04MjZiLWQ4MTRlYzhjMmU5Yy9leHRlcm5hbGxpYnMvdGV4
-			dGtpdHNpbXBsZWxheW91dC5sdWFiaW5kaW5ncwAA2AAAAP7///8B
-			AAAAAAAAABEAAAAEEAAA5AAAAAAAAAAFEAAAoAEAAAAAAAAQEAAA
-			3AEAAAAAAABAEAAAzAEAAAAAAAACIAAAqAIAAAAAAAAFIAAAGAIA
-			AAAAAAAQIAAAKAIAAAAAAAARIAAAXAIAAAAAAAASIAAAPAIAAAAA
-			AAATIAAATAIAAAAAAAAgIAAAiAIAAAAAAAAwIAAAtAIAAAAAAAAB
-			wAAA/AEAAAAAAAARwAAAIAAAAAAAAAASwAAADAIAAAAAAAAQ0AAA
-			BAAAAAAAAACA8AAAvAIAAAAAAAA=
-			</data>
-			<key>LibName</key>
-			<string>TextKitSimpleLayout</string>
-			<key>LibUrl</key>
-			<string>file:///Users/jean-luc/Library/Caches/com.celedev.CodeFlow/Programs/82D4003E-3B6D-495F-826B-D814EC8C2E9C/ExternalLibs/TextKitSimpleLayout.luabindings</string>
 		</dict>
 	</array>
 	<key>Program Display Info</key>
@@ -141,7 +108,7 @@
 		<key>LuaAppWindow edited source path</key>
 		<string>ViewController</string>
 		<key>LuaAppWindow frame</key>
-		<string>50 449 1300 746 0 0 2560 1417 </string>
+		<string>40 599 1300 746 0 0 2560 1417 </string>
 	</dict>
 	<key>Program Format Version</key>
 	<string>0.9</string>
@@ -194,8 +161,8 @@
 			AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAABGpwMBAAAIAAAA
 			AAQAAEG4Iv/AAAAAJAAAAAEBAAAxQkIzNEI4QS03RjU5LTNDMjkt
 			OUJBOS0yMTNBRTg0OTM4NkUYAAAAAQIAAIEAAAABAAgA7xcAAAEA
-			CAAAAAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAAIgEAAAECAAA3
-			MDQ0YjBmMTI4NjkxNGU4MWUzN2FhY2U1N2NhMzU0NDQ1OTNlOGY4
+			CAAAAAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAAIgEAAAECAABm
+			N2Y4NGQ0MTY5NDBiMzBkY2E5NGM3ZjkyOWFhZTkyODUyOTM1NTAw
 			OzAwMDAwMDAwOzAwMDAwMDAwOzAwMDAwMDAwMDAwMDAwMjA7Y29t
 			LmFwcGxlLmFwcC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAwMDE7
 			MDEwMDAwMDg7MDAwMDAwMDAwMDRmZGViODsvdXNlcnMvamVhbi1s
@@ -237,8 +204,8 @@
 			YWNpbnRvc2ggSEQIAAAABAMAAAAARqcDAQAACAAAAAAEAABBuCL/
 			wAAAACQAAAABAQAAMUJCMzRCOEEtN0Y1OS0zQzI5LTlCQTktMjEz
 			QUU4NDkzODZFGAAAAAECAACBAAAAAQAIAO8XAAABAAgAAAAAAAAA
-			AAABAAAAAQEAAC8AAAAAAAAAAQUAABwBAAABAgAAOWQwYzdiZjYw
-			YTEyMjJhY2NhYTI0MTNhMmY4N2I5NjMyMjJjMTM5YTswMDAwMDAw
+			AAABAAAAAQEAAC8AAAAAAAAAAQUAABwBAAABAgAAMjBmYTFkYjM0
+			OTgyMzUxYzUxMzJiNzY0YzQ0YmJhMzlkMGNiZWZlZDswMDAwMDAw
 			MDswMDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2NvbS5hcHBsZS5h
 			cHAtc2FuZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzAxMDAwMDA4
 			OzAwMDAwMDAwMDA0ZmRlYzE7L3VzZXJzL2plYW4tbHVjL2RldmVs
@@ -257,18 +224,14 @@
 		<dict>
 			<key>Source File Auto Reload</key>
 			<true/>
-			<key>Source File Is Start Item</key>
-			<false/>
-			<key>Source File Name</key>
-			<string>ViewController</string>
 			<key>SourceItemChangeTime</key>
-			<real>453831636.31107903</real>
+			<real>464099274.73047698</real>
 			<key>SourceItemDisplayInfo</key>
 			<dict>
 				<key>SrcEditor Selected Length</key>
 				<integer>0</integer>
 				<key>SrcEditor Selected Location</key>
-				<integer>342</integer>
+				<integer>390</integer>
 				<key>SrcEditor Visible Length</key>
 				<integer>1277</integer>
 				<key>SrcEditor Visible Location</key>
