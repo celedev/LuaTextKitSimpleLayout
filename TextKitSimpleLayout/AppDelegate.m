@@ -24,7 +24,12 @@
     _contextMonitor = [[CIMLuaContextMonitor alloc] initWithLuaContext:_luaContext connectionTimeout:5.0];
     
     // Extend the ViewController class in Lua
-    [_luaContext loadLuaModuleNamed:@"ViewController"];
+    [_luaContext loadLuaModuleNamed:@"ViewController" withCompletionBlock:^(id result) {
+        
+        if (result != nil) {
+            [(id<CIMLuaObject>)self.window.rootViewController promoteAsLuaObject];
+        }
+    }];
     
 
     return YES;

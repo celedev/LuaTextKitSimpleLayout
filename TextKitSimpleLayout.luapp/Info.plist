@@ -108,7 +108,7 @@
 		<key>LuaAppWindow edited source path</key>
 		<string>ViewController</string>
 		<key>LuaAppWindow frame</key>
-		<string>40 599 1300 746 0 0 2560 1417 </string>
+		<string>942 519 1300 746 0 0 2560 1417 </string>
 	</dict>
 	<key>Program Format Version</key>
 	<string>0.9</string>
@@ -129,6 +129,8 @@
 		<dict>
 			<key>RootGroupId</key>
 			<string>SImpleImage</string>
+			<key>SourceItemChangeTime</key>
+			<real>465296911.20628297</real>
 			<key>SourceItemDisplayInfo</key>
 			<dict>
 				<key>ListController Group IsExpanded</key>
@@ -138,7 +140,20 @@
 		<key>Chrysler_Building</key>
 		<dict>
 			<key>SourceItemChangeTime</key>
-			<real>421271287.76859099</real>
+			<real>465297249.03792799</real>
+			<key>SourceItemDisplayInfo</key>
+			<dict>
+				<key>ImageViewerMagnification</key>
+				<real>1</real>
+				<key>ImageViewerVisibleHeight</key>
+				<real>534</real>
+				<key>ImageViewerVisibleOriginX</key>
+				<real>0.0</real>
+				<key>ImageViewerVisibleOriginY</key>
+				<real>0.0</real>
+				<key>ImageViewerVisibleWidth</key>
+				<real>1022</real>
+			</dict>
 			<key>SourceItemOriginalFilePath</key>
 			<string>/Users/jean-luc/Developpement/CocoaHeads/TextKit Rennes #17 - TextKit/Apps CodeFlow/TextKitSimpleLayout/TextKitSimpleLayout/Chrysler_Building.jpg</string>
 			<key>SourceItemUrlBookmark</key>
@@ -154,18 +169,18 @@
 			fGQCAAAAAAAIAAAABAMAAMN7TgAAAAAACAAAAAQDAAA1g04AAAAA
 			AAgAAAAEAwAAEt5PAAAAAAAIAAAABAMAABXeTwAAAAAACAAAAAQD
 			AAAX3k8AAAAAAAgAAAAEAwAAGd5PAAAAAAAIAAAABAMAALPeTwAA
-			AAAACAAAAAQDAAC43k8AAAAAACQAAAABBgAAAAEAABABAAAgAQAA
+			AAAACAAAAAQDAACMFhoCAAAAACQAAAABBgAAAAEAABABAAAgAQAA
 			MAEAAEABAABQAQAAYAEAAHABAACAAQAACAAAAAAEAABBuPyBHwAA
 			ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAACAAAAAQD
 			AAAHAAAAAAAAAAQAAAADAwAA9wEAAAgAAAABCQAAZmlsZTovLy8M
-			AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAABGpwMBAAAIAAAA
+			AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAAA4OQIBAAAIAAAA
 			AAQAAEG4Iv/AAAAAJAAAAAEBAAAxQkIzNEI4QS03RjU5LTNDMjkt
 			OUJBOS0yMTNBRTg0OTM4NkUYAAAAAQIAAIEAAAABAAgA7xcAAAEA
 			CAAAAAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAAIgEAAAECAABm
-			N2Y4NGQ0MTY5NDBiMzBkY2E5NGM3ZjkyOWFhZTkyODUyOTM1NTAw
+			NGQyZWZhNGFiOTc4ZWRjM2M4ZGQyOWEwZWY1MjY0ZGNlZGRkMDIw
 			OzAwMDAwMDAwOzAwMDAwMDAwOzAwMDAwMDAwMDAwMDAwMjA7Y29t
 			LmFwcGxlLmFwcC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAwMDE7
-			MDEwMDAwMDg7MDAwMDAwMDAwMDRmZGViODsvdXNlcnMvamVhbi1s
+			MDEwMDAwMDg7MDAwMDAwMDAwMjFhMTY4YzsvdXNlcnMvamVhbi1s
 			dWMvZGV2ZWxvcHBlbWVudC9jb2NvYWhlYWRzL3RleHRraXQgcmVu
 			bmVzICMxNyAtIHRleHRraXQvYXBwcyBjb2RlZmxvdy90ZXh0a2l0
 			c2ltcGxlbGF5b3V0L3RleHRraXRzaW1wbGVsYXlvdXQvY2hyeXNs
@@ -201,11 +216,11 @@
 			SAEAAFgBAABoAQAAeAEAAAgAAAAABAAAQbj9aHoAAAAYAAAAAQIA
 			AAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAABwAAAAAA
 			AAAEAAAAAwMAAPcBAAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEBAABN
-			YWNpbnRvc2ggSEQIAAAABAMAAAAARqcDAQAACAAAAAAEAABBuCL/
+			YWNpbnRvc2ggSEQIAAAABAMAAAAAODkCAQAACAAAAAAEAABBuCL/
 			wAAAACQAAAABAQAAMUJCMzRCOEEtN0Y1OS0zQzI5LTlCQTktMjEz
 			QUU4NDkzODZFGAAAAAECAACBAAAAAQAIAO8XAAABAAgAAAAAAAAA
-			AAABAAAAAQEAAC8AAAAAAAAAAQUAABwBAAABAgAAMjBmYTFkYjM0
-			OTgyMzUxYzUxMzJiNzY0YzQ0YmJhMzlkMGNiZWZlZDswMDAwMDAw
+			AAABAAAAAQEAAC8AAAAAAAAAAQUAABwBAAABAgAANTJiY2Y5Y2Qz
+			MTlhOWE2MjQ0YTljNDAxZjliNTcyZjQ4YmFhY2NkOTswMDAwMDAw
 			MDswMDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2NvbS5hcHBsZS5h
 			cHAtc2FuZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzAxMDAwMDA4
 			OzAwMDAwMDAwMDA0ZmRlYzE7L3VzZXJzL2plYW4tbHVjL2RldmVs
@@ -225,17 +240,17 @@
 			<key>Source File Auto Reload</key>
 			<true/>
 			<key>SourceItemChangeTime</key>
-			<real>464099274.73047698</real>
+			<real>465296995.79087502</real>
 			<key>SourceItemDisplayInfo</key>
 			<dict>
 				<key>SrcEditor Selected Length</key>
-				<integer>0</integer>
+				<integer>11</integer>
 				<key>SrcEditor Selected Location</key>
-				<integer>390</integer>
+				<integer>5884</integer>
 				<key>SrcEditor Visible Length</key>
-				<integer>1277</integer>
+				<integer>2078</integer>
 				<key>SrcEditor Visible Location</key>
-				<integer>0</integer>
+				<integer>2283</integer>
 			</dict>
 		</dict>
 	</dict>

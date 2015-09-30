@@ -6,7 +6,7 @@ This is an example of mixed Lua + Objective-C application with the screen layout
 
 ## Configuration required
 
-A Mac with Celedev CodeFlow version 0.9.18 or greater installed.
+A Mac with Celedev CodeFlow version 0.9.19 or greater installed.
 
 Works on iPad, running iOS 7 or later.
 

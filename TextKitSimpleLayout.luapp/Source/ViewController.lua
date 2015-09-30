@@ -3,20 +3,23 @@ local CgAffineTransform = require "CoreGraphics.CGAffineTransform"
 local NsString = require "Foundation.NSString"
 
 local NSRange = struct.NSRange
-function NSRange:max()
-    return self.location + self.length
-end
-
 local CGRect = struct.CGRect
 
 local ViewController = class.extendClass (objc.ViewController)
 
-local superclass = ViewController.superclass
-
 function ViewController:viewDidLoad ()
-    
-    self[superclass]:viewDidLoad()
-    
+    self[ViewController.superclass]:viewDidLoad()
+    self:createTextSystem()
+end
+
+function ViewController:promoteAsLuaObject()
+    if self.isViewLoaded then
+        self:createTextSystem()
+    end
+end
+
+function ViewController:createTextSystem ()
+
     -- create the text storage
     local textFileUrl = objc.NSBundle.mainBundle:URLForResource_withExtension ("ConspirationMilliardaires", "rtf")
     local textStorage = objc.NSTextStorage:new()
@@ -101,7 +104,7 @@ function ViewController:updateTextSystem ()
                                                                               function (substring, range, enclosingRange)
                                                                                   paragraphIndex = paragraphIndex + 1
                                                                                   if paragraphIndex == 5 then
-                                                                                      insertLocation = enclosingRange:max()
+                                                                                      insertLocation = enclosingRange:maxLocation()
                                                                                       return true
                                                                                   end
                                                                               end)
@@ -112,13 +115,12 @@ function ViewController:updateTextSystem ()
     end
     
     -- Try to uncomment the lines below and see how the shape changes
-    
-    -- self.panImageView.viewShape = objc.UIBezierPath:bezierPathWithOvalInRect(CGRect(0, 0, 300, 500), 90.0)
-    -- self.panImageView.viewShape = objc.UIBezierPath:bezierPathWithRoundedRect_cornerRadius(CGRect(0, 0, 340, 500), 100.0)
+    -- self.panImageView.viewShape = objc.UIBezierPath:bezierPathWithOvalInRect(CGRect(0, 0, 300, 500))
+    -- self.panImageView.viewShape = objc.UIBezierPath:bezierPathWithRoundedRect_cornerRadius(CGRect(0, 0, 320, 500), 100.0)
     
     getResource("Chrysler_Building", "public.image", self.panImageView, "viewImage")
     
-    self.textAttachement.bounds = CGRect(0, 0, 95, 100)
+    self.textAttachement.bounds = CGRect(0, 0, 95, 105)
     
     self:updateExclusionPaths()
 end
